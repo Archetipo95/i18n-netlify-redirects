@@ -1,3 +1,5 @@
+import i18n from "./config/i18n/config";
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: "static",
@@ -30,28 +32,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ["@nuxtjs/i18n"],
 
-  i18n: {
-    locales: ["en", "fr", "it"],
-    defaultLocale: "en",
-    detectBrowserLanguage: false,
-    strategy: "prefix",
-    lazy: true,
-    langDir: "lang/",
-    vueI18n: {
-      fallbackLocale: "en",
-      messages: {
-        en: {
-          welcome: "Welcome",
-        },
-        fr: {
-          welcome: "Bienvenue",
-        },
-        it: {
-          welcome: "Benvenuto",
-        },
-      },
-    },
-  },
+  i18n,
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
