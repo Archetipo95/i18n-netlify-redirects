@@ -36,6 +36,7 @@ export default {
     detectBrowserLanguage: false,
     strategy: "prefix",
     lazy: true,
+    langDir: "lang/",
     vueI18n: {
       fallbackLocale: "en",
       messages: {
