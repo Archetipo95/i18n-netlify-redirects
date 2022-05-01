@@ -34,6 +34,8 @@ export default {
     locales: ["en", "fr", "it"],
     defaultLocale: "en",
     detectBrowserLanguage: false,
+    strategy: "prefix",
+    lazy: true,
     vueI18n: {
       fallbackLocale: "en",
       messages: {
