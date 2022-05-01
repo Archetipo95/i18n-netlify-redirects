@@ -33,6 +33,7 @@ export default {
   i18n: {
     locales: ["en", "fr", "it"],
     defaultLocale: "en",
+    detectBrowserLanguage: false,
     vueI18n: {
       fallbackLocale: "en",
       messages: {
@@ -47,7 +48,6 @@ export default {
         },
       },
     },
-    detectBrowserLanguage: false,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
