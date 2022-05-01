@@ -47,6 +47,7 @@ export default {
         },
       },
     },
+    detectBrowserLanguage: false,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
